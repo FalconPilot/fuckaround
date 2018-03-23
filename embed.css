@@ -1,0 +1,26 @@
+/*
+**  Embed CSS
+*/
+
+body {
+  font-family: 'Trebuchet MS';
+}
+
+textarea#result {
+  width: 80%;
+  height: 100px;
+  max-height: 50vh;
+}
+
+input[type=text],
+textarea {
+  margin: 5px;
+  padding: 5px;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+button {
+
+}

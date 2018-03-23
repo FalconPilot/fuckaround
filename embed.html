@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- HEAD -->
+  <head>
+    <title>Youtube JFEMA</title>
+    <link rel="stylesheet" type="text/css" href="./embed.css"/>
+    <link rel="stylesheet" type="text/css" href="./falcon.css"/>
+  </head>
+
+  <!-- BODY -->
+  <body id="falcon-body">
+    <header id="falcon-header" class="flex-col flex-middle">
+      <h1>Fucking youtube embedder</h1>
+    </header>
+    <main id="falcon-container" class="flex-col center-h flex-top">
+
+      <!-- "Form" -->
+      <h2>Enter video link here</h2>
+      <div class="flex-row">
+        <input type="text" id="jfema"/>
+        <button id="ebtn">Just fucking embed me anyway</button>
+      </div>
+
+      <!-- Result and preview -->
+      <textarea id="result" readonly></textarea>
+      <div id="errors"></div>
+      <h2>Preview</h2>
+      <div id="preview"><p>None</p></div>
+    </main>
+
+
+
+    <!-- Scripts -->
+    <script src="./embed.js"></script>
+  </body>
+</html>
